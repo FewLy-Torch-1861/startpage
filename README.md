@@ -6,4 +6,4 @@ Feel free to fork and make your own changes!
 
 - Font: JetBrains Mono
 - Colorscheme: Gruvbox Dark
-- Evernight: [Here](https://x.com/dorkdragoon/status/1976027933493035478)
+- GIF: [Here](https://www.reddit.com/r/wholesomeyuri/comments/1o1p46g/project_sekai/)
