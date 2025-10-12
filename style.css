@@ -2,7 +2,6 @@
   --color-bg: #191724;
   --color-fg: #e0def4;
   --color-link: #908caa;
-  --color-link-visited: #908caa;
   --color-link-hover: #c4a7e7;
 }
 
@@ -29,6 +28,7 @@ body {
   align-items: center;
   font-size: 40px;
   padding-top: 25vh;
+  text-shadow: 1px 1px 3px #000;
 }
 
 .category {
@@ -40,6 +40,7 @@ body {
 .bookmarks {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .links {
@@ -58,15 +59,13 @@ li {
   font-size: 16px;
   list-style-type: none;
   padding: 5px;
+  text-shadow: 1px 1px 3px #000;
 }
 
+a:visited,
 a:link {
   text-decoration: none;
   color: var(--color-link);
-}
-
-a:visited {
-  color: var(--color-link-visited);
 }
 
 a:hover {
@@ -89,5 +88,21 @@ a:hover {
 
   100% {
     opacity: 1;
+  }
+}
+
+@media (max-width: 900px) {
+
+  .head {
+    font-size: 32px;
+    padding-top: 15vh;
+  }
+}
+
+@media (max-width: 540px) {
+
+  .head {
+    font-size: 32px;
+    padding-top: 5vh;
   }
 }
