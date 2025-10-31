@@ -1,74 +1,82 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>~/startpage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Noto+Sans+Thai:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <title>~/startpage</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Noto+Sans+Thai:wght@100..900&display=swap"
-    rel="stylesheet">
-</head>
+  <body>
+    <div class="container">
+      <div class="head">
+        <p>$ cd ~/<span class="blinking">_</span></p>
+      </div>
 
-<body>
-  <div class="container">
-    <div class="head">
-      <p>$ cd ~/<span class="blinking">_</span></p>
+      <div class="bookmarks">
+        <div class="category">
+          <div class="links">
+            <li class="title">study</li>
+            <li><a href="https://gmail.com">gmail</a></li>
+            <li>
+              <a href="https://calendar.google.com/calendar/u/0/r/month?pli=1"
+                >calendar</a
+              >
+            </li>
+            <li>
+              <a href="https://classroom.google.com/u/2/?pli=1">classroom</a>
+            </li>
+          </div>
+        </div>
+
+        <div class="category">
+          <div class="links">
+            <li class="title">dev</li>
+            <li><a href="https://archie.sokoke-newton.ts.net/">webui</a></li>
+            <li><a href="https://github.com/">github</a></li>
+            <li><a href="https://vim.rtorr.com/">vim</a></li>
+          </div>
+        </div>
+
+        <div class="category">
+          <div class="links">
+            <li class="title">homelab</li>
+            <li>
+              <a href="https://login.tailscale.com/admin/machines">tailscale</a>
+            </li>
+            <li>
+              <a
+                href="https://aistudio.google.com/usage?project=nutts-personal-llm&timeRange=last-28-days"
+                >ai studio</a
+              >
+            </li>
+            <li><a href="http://archie:5000/">uptime kuma</a></li>
+          </div>
+        </div>
+
+        <div class="category">
+          <div class="links">
+            <li class="title">inspire</li>
+            <li><a href="https://pinterest.com/">pinterest</a></li>
+            <li><a href="https://pixiv.net/en/">pixiv</a></li>
+            <li><a href="https://reddit.com/r/unixporn">unixporn</a></li>
+          </div>
+        </div>
+        <div class="category">
+          <div class="links">
+            <li class="title">rest</li>
+            <li><a href="https://monkeytype.com/">monkeytype</a></li>
+            <li><a href="https://youtube.com/">youtube</a></li>
+            <li><a href="http://archie:4000/">navidrome</a></li>
+          </div>
+        </div>
+      </div>
     </div>
-
-    <div class="bookmarks">
-      <div class="category">
-        <div class="links">
-          <li class="title">study</li>
-          <li><a href="https://gmail.com">gmail</a></li>
-          <li><a href="https://calendar.google.com/calendar/u/0/r/month?pli=1">calendar</a></li>
-          <li>
-            <a href="https://classroom.google.com/u/2/?pli=1">classroom</a>
-          </li>
-        </div>
-      </div>
-
-      <div class="category">
-        <div class="links">
-          <li class="title">dev</li>
-          <li><a href="https://archie.sokoke-newton.ts.net/">webui</a></li>
-          <li><a href="https://github.com/">github</a></li>
-          <li><a href="https://vim.rtorr.com/">vim</a></li>
-        </div>
-      </div>
-
-      <div class="category">
-        <div class="links">
-          <li class="title">homelab</li>
-          <li>
-            <a href="https://login.tailscale.com/admin/machines">tailscale</a>
-          </li>
-          <li><a href="https://aistudio.google.com/usage?project=nutts-personal-llm&timeRange=last-28-days">ai studio</a></li>
-          <li><a href="http://archie:4000/">uptime kuma</a></li>
-        </div>
-      </div>
-
-      <div class="category">
-        <div class="links">
-          <li class="title">inspire</li>
-          <li><a href="https://pinterest.com/">pinterest</a></li>
-          <li><a href="https://pixiv.net/en/">pixiv</a></li>
-          <li><a href="https://reddit.com/r/unixporn">unixporn</a></li>
-        </div>
-      </div>
-      <div class="category">
-        <div class="links">
-          <li class="title">rest</li>
-          <li><a href="https://monkeytype.com/">monkeytype</a></li>
-          <li><a href="https://youtube.com/">youtube</a></li>
-          <li><a href="https://x.com/">twitter</a></li>
-        </div>
-      </div>
-    </div>
-  </div>
-</body>
-
+  </body>
 </html>
